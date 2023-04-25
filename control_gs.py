@@ -18,8 +18,7 @@ def main():
                   print('first 3 seconds delay!!')             
                   time.sleep(3)
             
-            with pyautogui.hold('shift'):
-                  pyautogui.press(['t', 'r', 'u','e'])
+            with pyautogui.hold('shift'): pyautogui.press(['t', 'r', 'u','e'])
             
             pyautogui.press('right')
             time.sleep(0.5)
